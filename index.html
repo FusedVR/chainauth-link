@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FusedVR</title>
+    <link rel="icon" type="image/x-icon" href="assets/img/logo/logo.png">
+
+    <!-- all css in here --> 
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">  
+    <link rel="stylesheet" href="assets/css/style.css">  
+    <link rel="stylesheet" href="assets/css/responsive.css">  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+  
+    <script src="assets/auth/web3modal.js"></script>
+</head> 
+<body>
+
+    <!-- header_area html start in here  -->
+    <div class="header_area">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <div class="main_logo">
+                        <a href="index.html">
+                            <img src="assets/img/logo/logo.png" alt="main-logo">
+                            FusedVR
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="header_menu">
+                        <nav>
+                            <ul>
+                                <li><a href="#">Documentation</a></li>
+                                <li><a href="https://crypto.fusedvr.com" target="_blank">APIs</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- header html end in here  -->
+
+    <!-- form_area html start in here  -->
+    <div class="form_area login">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <form action="">
+                            <div class="form_inner_text">
+                                <div class="form_text_tit">
+                                    <img src="assets/img/logo/logo.png" alt="">
+                                    <h1>FusedVR Chain Auth</h1>
+                                </div>
+                                <p>Input the Link Code to authenticate your wallet and prove ownership of tokens & NFTS to the requesting game</p>
+                            </div>
+                            <div class="sing_input">
+                                <label for="code">Input Game Link Code</label>
+                                <input type="text" id="code-input" placeholder="Input Code">
+                            </div> 
+                            <div class="sing_input">
+                                <button id="auth-button" type="button">Authenticate with Web3 Wallet</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- form_area html end in here  -->
+
+    <div id="alert" class="modal" tabindex="-1" role="dialog">
+      <div class="modal-header">
+        <h5 class="modal-title">Title</h5>
+        <a href="#close" rel="modal:close">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </a>
+      </div>
+      <div class="modal-body">
+        
+      </div>
+      <div class="modal-footer">
+        <a href="#close-modal" rel="modal:close"><button type="button" class="btn btn-secondary">Close</button></a>
+      </div>
+    </div>
+
+    <!-- footer_area html start in here -->
+    <footer>
+        <div class="footer_area">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="fotter_widget text-right">
+                            <ul class="footer_social">
+                                <li><a href="#"><img src="assets/img/icon/twitter.png" alt=""></a></li>
+                                <li><a href="#"><img src="assets/img/icon/linkined.png" alt=""></a></li>
+                                <li><a href="#"><img src="assets/img/icon/youtube.png" alt=""></a></li>
+                            </ul>
+                            <h6>&copy; FusedVR, 2022</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer_area html end in here -->
+
+
+    <!-- main & plugines js -->
+    <script src="https://www.unpkg.com/jquery@3.6.1/dist/jquery.min.js"></script>
+    <script src="https://unpkg.com/popper.js@1.12.8/dist/umd/popper.min.js"></script>
+    <script src="https://unpkg.com/jquery-modal@0.9.1/jquery.modal.min.js"></script>
+
+</body>
+</html>
